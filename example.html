@@ -186,8 +186,8 @@
     <script>
         let allCountries = [];
         
-        // Fetch country data
-        fetch('https://cdn.jsdelivr.net/gh/MdWahiduzzamanEmon/All_Country_JSON@main/All_Country.json')
+        // Fetch country data from local file
+        fetch('./All_Country.json')
             .then(response => response.json())
             .then(countries => {
                 allCountries = countries;
