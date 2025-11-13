@@ -203,12 +203,15 @@ This dataset is perfect for:
 
 ## 📤 Publishing to NPM
 
-Want to publish this package to NPM? See the [PUBLISHING.md](PUBLISHING.md) guide for detailed instructions on:
-- Setting up NPM credentials
-- Manual publishing steps
-- Automated publishing with GitHub Actions
-- Version management
-- Best practices
+**For Maintainers**: This package is ready to publish to NPM!
+
+- **Quick Start**: See [QUICKSTART.md](QUICKSTART.md) for a simple guide to publish for the first time
+- **Detailed Guide**: See [PUBLISHING.md](PUBLISHING.md) for comprehensive instructions including:
+  - Setting up NPM credentials
+  - Manual publishing steps
+  - Automated publishing with GitHub Actions
+  - Version management
+  - Best practices
 
 ## 🤝 Contributing
 
