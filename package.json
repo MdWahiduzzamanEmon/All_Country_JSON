@@ -1,0 +1,36 @@
+{
+  "name": "all-country-json",
+  "version": "1.0.0",
+  "description": "A comprehensive JSON dataset containing information for 242 countries, including country names, dial codes, and ISO country codes",
+  "main": "All_Country.json",
+  "scripts": {
+    "test": "node -e \"const data = require('./All_Country.json'); console.log('Countries loaded:', data.length); process.exit(data.length > 0 ? 0 : 1);\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MdWahiduzzamanEmon/All_Country_JSON.git"
+  },
+  "keywords": [
+    "country",
+    "countries",
+    "json",
+    "dial-code",
+    "country-code",
+    "iso",
+    "international",
+    "phone",
+    "data",
+    "dataset"
+  ],
+  "author": "MdWahiduzzamanEmon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MdWahiduzzamanEmon/All_Country_JSON/issues"
+  },
+  "homepage": "https://github.com/MdWahiduzzamanEmon/All_Country_JSON#readme",
+  "files": [
+    "All_Country.json",
+    "README.md",
+    "LICENSE"
+  ]
+}
